@@ -21,7 +21,6 @@ public class SliderJointScript : MonoBehaviour
         _motor = _joint.motor; //берем изначальные значени€ мотора джоинта в экземпл€р мотора, на случай если в моторе будут произведены настройки через инспектор
     }
 
-
     void Update()
     {
         if (_joint.limitState == JointLimitState2D.LowerLimit) //начинаем с limitState = LowerLimit, так же при повторных достижени€ LowerLimit, назначаем мотору скорость
