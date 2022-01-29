@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class Health : MonoBehaviour
 {
     public float _maxHealth;
-    private Animator _anim;
     public float _currentHealth;
     public bool _isAlive = true;
+
+    private Animator _anim;
 
     private void Awake()
     {
@@ -19,6 +21,8 @@ public class Health : MonoBehaviour
     {
         _currentHealth -= damage;
         CheckIsAlive();
+
+        _anim.SetTrigger("Damage"); //для перехода к анимации получения урона
     }
 
     private void CheckIsAlive()

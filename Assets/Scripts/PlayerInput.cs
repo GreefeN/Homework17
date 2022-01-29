@@ -8,6 +8,7 @@ using static GlobalVars;
 [AddComponentMenu("Player Components/Player Input")]
 public class PlayerInput : MonoBehaviour
 {
+    public bool _heroAlive = true;
     private PlayerMovement _playerMovement;
     private Shooter _playerShoot;
     private float _horizontalDirection;
@@ -18,21 +19,18 @@ public class PlayerInput : MonoBehaviour
         _playerShoot = GetComponent<Shooter>();
     }
 
-    void Start()
-    {
-
-    }
-
-
     void Update()
     {
-        _horizontalDirection = Input.GetAxis(HORIZONTAL_AXIS);
-        _isPressJump = Input.GetButtonDown(JUMP);
-        _playerMovement.Move(_horizontalDirection, _isPressJump);
-
-        if (Input.GetButtonDown(FIRE))
+        if (_heroAlive) //если игрок жив
         {
-            _playerShoot.Shoot();
+            _horizontalDirection = Input.GetAxis(HORIZONTAL_AXIS);
+            _isPressJump = Input.GetButtonDown(JUMP);
+            _playerMovement.Move(_horizontalDirection, _isPressJump);
+
+            if (Input.GetButtonDown(FIRE))
+            {
+                _playerShoot.Shoot();
+            }
         }
     }
 }
