@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2350325126507797418}
   - component: {fileID: 2350325126507797419}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: free_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1754006829
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -5033581564710112172, guid: 5ea87f3d4966af04cbc744d0d3ceb80a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 2350325126606431469}
   - component: {fileID: 8411088801558069107}
   - component: {fileID: 6650135800905040847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.157166, y: 0.12205446}
+  m_Offset: {x: 0.157166, y: 0.26284206}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -142,7 +142,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6388521, y: 0.40811992}
+  m_Size: {x: 0.6388521, y: 0.12654471}
   m_EdgeRadius: 0
 --- !u!251 &6650135800905040847
 PlatformEffector2D:
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2350325127004477814}
   - component: {fileID: 2350325127004477815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: free_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1754006829
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -4965553739594148211, guid: 5ea87f3d4966af04cbc744d0d3ceb80a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -255,7 +255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2350325127082025081}
   - component: {fileID: 2350325127082025086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: free_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1754006829
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 7763109817476047783, guid: 5ea87f3d4966af04cbc744d0d3ceb80a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -337,7 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2350325127612214092}
   - component: {fileID: 2350325127612214093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: free_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1754006829
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -2491624659041743377, guid: 5ea87f3d4966af04cbc744d0d3ceb80a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
